@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CodelyPRO</string>
+
+    <string name="author">By %1$s</string>
+
+    <string name="title_course">Exprimiendo las vistas de Android</string>
+    <string name="author_course">By Ilia Berlana</string>
+
+    <string name="hola_user">¡Hola %1$s!</string>
+    <plurals name="user_do_courses">
+        <item quantity="one">Has realizado %1$s curso</item>
+        <item quantity="other">Has realizado %1$s cursos</item>
+    </plurals>
+    
+    <string name="summary">Course summary</string>
+    <string name="description">Course description</string>
+    <string name="about">About the author</string>
+
+    <string name="summary_content">Podrás crear cualquier aplicación, independientemente del diseño que tengas.</string>
+    <string name="description_content">Con este curso conseguirás crear cualquier aplicación Android, a nivel visual, independientemente del diseño que tengas delante.\n\nAprenderás desde las propiedades más básicas de los componentes hasta las más complejas, para qué se usan y cuándo. Además, aprenderás cómo personalizar tus componentes y tu aplicación, para que cualquier cambio del diseño te afecte lo menos posible.</string>
+    <string name="about_content">Después de estar 5 años programando en Java como backend, se le dio la oportunidad de aprender Android y realizar su primera aplicación. Le gustó tanto que decidió enfocar su carrera profesional hacía ello y ahora, casi 5 años después, puede decir que lleva a sus espaldas unas 10 aplicaciones nativas tanto de Android, como de iOS, incluso una de Windows Phone. Casi siempre enfocadas a publicidad, se las ha tenido que ingeniar para que se mostrasen tal cual exigía el diseño.</string>
+</resources>

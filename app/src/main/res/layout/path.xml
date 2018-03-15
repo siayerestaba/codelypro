@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/degradado"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_25dp"
+            android:layout_marginEnd="@dimen/margin_25dp"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:layout_marginBottom="@dimen/margin_10dp"
+            android:background="@drawable/white_transparent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/title.blue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bienvenida - ¡Disponible sin registro!" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin_10dp"
+                android:background="@drawable/transparent_button"
+                android:text="Review"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <include
+            layout="@layout/cardview_path"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_15dp" />
+
+
+        <TextView
+            style="@style/title.green"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_10dp"
+            android:layout_marginEnd="@dimen/margin_25dp"
+            android:layout_marginStart="@dimen/margin_25dp"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:background="@drawable/white_transparent"
+            android:text="Componentes básicos: textos e imágenes" />
+
+        <TextView
+            style="@style/title.green"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_10dp"
+            android:layout_marginEnd="@dimen/margin_25dp"
+            android:layout_marginStart="@dimen/margin_25dp"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:background="@drawable/white_transparent"
+            android:text="Componentes básicos: botones" />
+
+        <TextView
+            style="@style/title.green"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_10dp"
+            android:layout_marginEnd="@dimen/margin_25dp"
+            android:layout_marginStart="@dimen/margin_25dp"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:background="@drawable/white_transparent"
+            android:text="Vistas compuestas: layouts" />
+
+        <TextView
+            style="@style/title.green"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_10dp"
+            android:layout_marginEnd="@dimen/margin_25dp"
+            android:layout_marginStart="@dimen/margin_25dp"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:background="@drawable/white_transparent"
+            android:text="Vistas compuestas: listados" />
+
+        <TextView
+            style="@style/title.green"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_10dp"
+            android:layout_marginEnd="@dimen/margin_25dp"
+            android:layout_marginStart="@dimen/margin_25dp"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:background="@drawable/white_transparent"
+            android:text="Vistas compuestas: formularios" />
+
+        <TextView
+            style="@style/title.green"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_10dp"
+            android:layout_marginEnd="@dimen/margin_25dp"
+            android:layout_marginStart="@dimen/margin_25dp"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:background="@drawable/white_transparent"
+            android:text="Vistas compuestas: fragments" />
+
+        <TextView
+            style="@style/title.green"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_10dp"
+            android:layout_marginEnd="@dimen/margin_25dp"
+            android:layout_marginStart="@dimen/margin_25dp"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:background="@drawable/white_transparent"
+            android:text="Personaliza la aplicación" />
+
+        <TextView
+            style="@style/title.green"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_10dp"
+            android:layout_marginEnd="@dimen/margin_25dp"
+            android:layout_marginStart="@dimen/margin_25dp"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:background="@drawable/white_transparent"
+            android:text="Conclusiones" />
+
+    </LinearLayout>
+</ScrollView>
